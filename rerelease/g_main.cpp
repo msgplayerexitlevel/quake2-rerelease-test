@@ -192,7 +192,7 @@ void PreInitGame()
 	teamplay = gi.cvar("teamplay", "0", CVAR_LATCH);
 
 	un_railgun_nerf = gi.cvar("un_railgun_nerf", "0", CVAR_LATCH);
-	un_berserker_jump = gi.cvar("un_berserker_jump", "0", CVAR_LATCH);
+	un_berserker_jump = gi.cvar("un_berserker_jump", "1", CVAR_LATCH);
 	un_barrel_delay = gi.cvar("un_barrel_delay", "0", CVAR_LATCH);
 	un_machinegun_smooth = gi.cvar("un_machinegun_smooth", "0", CVAR_LATCH);
 	un_compass = gi.cvar("un_compass", "0", CVAR_LATCH);
@@ -200,13 +200,13 @@ void PreInitGame()
 	un_monster_footsteps = gi.cvar("un_monster_footsteps", "0", CVAR_LATCH);
 	un_blaster_buff = gi.cvar("un_blaster_buff", "0", CVAR_LATCH);
 	un_monster_die_noclip = gi.cvar("un_monster_die_noclip", "0", CVAR_LATCH);
-	un_monster_sidestep = gi.cvar("un_monster_sidestep", "0", CVAR_LATCH);
-	un_monster_duck = gi.cvar("un_monster_duck", "0", CVAR_LATCH);
-	un_monster_blindfire = gi.cvar("un_monster_blindfire", "0", CVAR_LATCH);
-	un_monster_hyperaware = gi.cvar("un_monster_hyperaware", "0", CVAR_LATCH);
+	un_monster_sidestep = gi.cvar("un_monster_sidestep", "1", CVAR_LATCH);
+	un_monster_duck = gi.cvar("un_monster_duck", "1", CVAR_LATCH);
+	un_monster_blindfire = gi.cvar("un_monster_blindfire", "1", CVAR_LATCH);
+	un_monster_hyperaware = gi.cvar("un_monster_hyperaware", "1", CVAR_LATCH);
 	un_powershield_nerf = gi.cvar("un_powershield_nerf", "0", CVAR_LATCH);
-	un_monster_walkjump = gi.cvar("un_monster_walkjump", "0", CVAR_LATCH);
-	un_flyer_smother = gi.cvar("un_flyer_smother", "0", CVAR_LATCH);
+	un_monster_walkjump = gi.cvar("un_monster_walkjump", "1", CVAR_LATCH);
+	un_flyer_smother = gi.cvar("un_flyer_smother", "1", CVAR_LATCH);
 	un_damage_indicator = gi.cvar("un_damage_indicator", "0", CVAR_LATCH);
 
 	// ZOID
@@ -322,7 +322,7 @@ void InitGame()
 	timelimit = gi.cvar("timelimit", "0", CVAR_SERVERINFO);
 	// ZOID
 	capturelimit = gi.cvar("capturelimit", "0", CVAR_SERVERINFO);
-	g_quick_weapon_switch = gi.cvar("g_quick_weapon_switch", "1", CVAR_LATCH);
+	g_quick_weapon_switch = gi.cvar("g_quick_weapon_switch", "0", CVAR_LATCH);
 	g_instant_weapon_switch = gi.cvar("g_instant_weapon_switch", "0", CVAR_LATCH);
 	// ZOID
 	password = gi.cvar("password", "", CVAR_USERINFO);
