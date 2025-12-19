@@ -1643,7 +1643,7 @@ void SP_worldspawn(edict_t *ent)
 	gi.soundindex("items/protect4.wav");
 	gi.soundindex("weapons/noammo.wav");
 	gi.soundindex("weapons/lowammo.wav");
-	gi.soundindex("weapons/change.wav");
+	gi.soundindex("");
 
 	gi.soundindex("infantry/inflies1.wav");
 

@@ -332,7 +332,7 @@ void ChangeWeapon(edict_t *ent)
 		ent->client->pers.lastweapon = ent->client->pers.weapon;
 
 		if (ent->client->newweapon && ent->client->newweapon != ent->client->pers.weapon)
-			gi.sound(ent, CHAN_WEAPON, gi.soundindex("weapons/change.wav"), 1, ATTN_NORM, 0);
+			gi.sound(ent, CHAN_WEAPON, gi.soundindex(""), 1, ATTN_NORM, 0);
 	}
 
 	ent->client->pers.weapon = ent->client->newweapon;
